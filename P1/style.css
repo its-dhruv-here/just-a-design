@@ -1,0 +1,128 @@
+@font-face {
+  font-family: new;
+  src: url(./DxGrafik-SemiBold.otf);
+}
+
+@font-face {
+  font-family: shop;
+  src: url(./KenokyLight.ttf);
+}
+
+@font-face {
+  font-family: sweat;
+  src: url(./Maghfirea.otf);
+}
+
+@font-face {
+  font-family: sweater;
+  src: url(./IFDurerDisplay-PERSONALUSE-Regular.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+#main {
+    height: 100%;
+    width: 100%;
+}
+
+#nav {
+    padding: 23px 85px;
+    font-size: 18px;
+}
+
+#nav a{
+    color: black;
+    text-decoration: none;
+    margin-right: 30px;
+}
+
+#main>h1{
+    font-weight: 200;
+    font-size: 330px;
+    padding-left: 60px;
+    font-family: sweater;
+    width: 100%;
+    position: absolute;
+    top: 4%;
+}
+
+#btmleft {
+    width: 300px;
+    position: absolute;
+    left: 6%;
+    top: 60%;
+}
+
+#btmleft h4{
+    margin-top: 35px;
+    font-size: 19px;
+    font-weight: 550;
+}
+
+#btmleft p {
+    font-size: 15px;
+    margin-top: 2px;
+}
+
+#btmleft h3 {
+    font-size: 19px;
+    font-weight: 580;
+}
+
+#bottmbar {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 86px;
+    width: 100%;
+    position: absolute;
+    bottom: 40px;
+    left: 0;
+}
+
+#bottmbar h1{
+    font-family: sweat;
+}
+
+#bottmbar a {
+    color: black;
+    font-size: 32px;
+    text-decoration: none;
+    padding-right: 50px;
+    font-family: sweat;
+}
+
+#main>img {
+    position: absolute;
+
+}
+
+#first {
+    height: 200px;
+    left: 40%;
+    bottom: 21%;
+    border-radius: 25px;
+}
+
+#second {
+    left: 48%;
+    height: 280px;
+    bottom: 3%;
+    border-radius: 22px;
+}
+#third {
+    height: 400px;
+    left: 60%;
+    bottom: 15%;
+    z-index: 20;
+    border-radius: 25px;
+}
